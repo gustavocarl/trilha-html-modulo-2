@@ -1,0 +1,147 @@
+html,
+body {
+  margin: 0;
+}
+body {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
+.main {
+  display: flex;
+  flex-flow: column;
+  width: 85%;
+}
+.menu {
+  width: 15%;
+  background-color: aqua;
+  padding: 10px 20px 0px;
+}
+.header {
+  background-color: rgb(5, 108, 108);
+  min-height: 150px;
+}
+.content {
+  background-color: white;
+  min-height: 300px;
+  padding: 20px;
+}
+
+table th {
+  border: solid 1px #252525;
+  font-size: 18px;
+}
+
+table td {
+  border: solid 1px #252525;
+  font-size: 18px;
+}
+
+table tr {
+  text-align: left;
+  padding: 0.5rem;
+  border: black;
+}
+
+.formulario-contato {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-family: Arial, sans-serif;
+}
+
+.form-contact fieldset {
+  border: none;
+  padding: 0;
+}
+
+.form-contact legend {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.form-buttons button {
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form-buttons button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.form-buttons button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.form-buttons button[type="reset"] {
+  background-color: #ccc;
+}
+
+.form-buttons button[type="reset"]:hover {
+  background-color: #999;
+}
+
+.footer {
+  background-color: rgb(99, 56, 240);
+  min-height: 150px;
+}
+
+.footer__list {
+  text-align: center;
+}
+
+.footer__text {
+  color: #f1f1f1;
+}
+
+.footer_social-icon {
+  padding: 2%;
+}
